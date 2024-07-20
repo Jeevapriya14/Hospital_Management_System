@@ -260,6 +260,7 @@ body{
     .home-logo{
         img{
             width:50%;
+            padding-left: 3rem;
         }
     }
     .home .content{
