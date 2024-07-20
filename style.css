@@ -162,7 +162,7 @@ body{
     border: var(--border);
     padding: 2.5rem;
 }
-@media (max-width:991px) {
+@media (max-width:990px) {
     html{
     font-size: 55.5%;
     }
@@ -170,9 +170,7 @@ body{
         padding: 2rem;
     }
 }
-@media (max-width:768px){
-    
-}
+
 @media (max-width:450px) {
     html{
     font-size: 50%;
@@ -181,6 +179,23 @@ body{
         img{
             width:30%;
         }
+    }
+    .header .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 1rem;
+        /* justify-items: space-between; */
+    }
+    .header .navbar a {
+        margin: 0.5rem 0;
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .home .logo img {
+        margin-top: 50px;
     }
 }
 
