@@ -307,7 +307,10 @@ body{
         font-size: 1.3rem;
         line-height: 1.5;
     }
-    
+    .icons-container .icons{
+        display:flex;
+        flex-direction: row;
+    }
 
 }
 
