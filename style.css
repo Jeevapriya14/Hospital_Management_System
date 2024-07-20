@@ -219,11 +219,13 @@ body{
     width: 100%;
     padding: 4.5rem;
     padding-left: 20px;
+    
 
     
 }
 .contact .row .content{
     flex: 1 1 45rem;
+    
     
 }
 .contact .row .content h3{
@@ -231,6 +233,7 @@ body{
     text-shadow: var(--text-shadow);
     font-size: 4rem;
     line-height: 1.8;
+    padding: 4.5rem;
 
     
 }
