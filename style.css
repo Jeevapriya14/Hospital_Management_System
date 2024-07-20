@@ -282,7 +282,7 @@ body{
     }
     .header .navbar a {
         margin: 0.5rem 0;
-        padding-left:2rem;
+        padding-left:2.5rem;
     }
     .header {
         flex-direction: column;
@@ -304,7 +304,7 @@ body{
 
     .about .row .content h3 {
         font-size: 3rem;
-        line-height: 1.5;
+        
     }
 
     .about .row .content p {
