@@ -272,12 +272,13 @@ body{
         align-items: flex-start;
         font-size: 10rem;
         gap: 5rem;
-        padding-left:3rem;
+        
         /* justify-items: space-between; */
 
     }
     .header .navbar a {
         margin: 0.5rem 0;
+        padding-left:3rem;
     }
     .header {
         flex-direction: column;
