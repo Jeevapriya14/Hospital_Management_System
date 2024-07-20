@@ -365,6 +365,7 @@ body{
 
     .services .box-container .box {
         padding: 5rem;
+        align-items: center;
     }
 
     .contact .row {
