@@ -256,8 +256,10 @@ body{
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        /* gap: 1rem; */
-        justify-items: space-between;
+        font-size: 10rem;
+        gap: 5rem;
+        /* justify-items: space-between; */
+
     }
     .header .navbar a {
         margin: 0.5rem 0;
