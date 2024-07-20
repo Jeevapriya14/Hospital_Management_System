@@ -198,33 +198,7 @@ body{
 
     
 }
-/* .contact .row{
-    display:flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
 
-}
-.contact .row .image{
-    flex: 1 1 45rem;
-
-}
-.contact .row .image .img{
-    width: 100%;
-
-    
-}
-.contact .row .content{
-    flex: 1 1 45rem;
-    
-}
-.contact .row .content h3{
-    color: var(--black);
-    text-shadow: var(--text-shadow);
-    font-size: 4rem;
-    line-height: 1.8;
-}
- */
 
 
 @media (max-width:990px) {
