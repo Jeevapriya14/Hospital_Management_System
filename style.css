@@ -343,20 +343,23 @@ body{
         gap: 3rem;
         padding-left: 2rem;
         padding-right: 2rem;
-        font-size: 3rem;
+        font-size: 2rem;
 
     }
 
     .icons-container .icons {
         padding-left: 0;
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
 
+    }
+    .services .heading{
+        align-items: center;
     }
 
     .services .box-container {
         grid-template-columns: 1fr;
-        gap: 3rem;
+        
         padding-left: 5rem;
         padding-right: 5rem;
         font-size: 3rem;
