@@ -226,6 +226,14 @@ body{
 
     
 }
+.contact .row .content address{
+    color: var(--light-colour);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+
+    
+}
 
 
 @media (max-width:990px) {
