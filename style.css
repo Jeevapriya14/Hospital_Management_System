@@ -120,6 +120,7 @@ body{
 }
 .home .logo img{
     width: 100%;
+    height: 100vh;
 }
 .home .content{
     flex: 1 1 45rem;
@@ -138,21 +139,30 @@ body{
 }
 .icons-container{
     display: grid;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     gap: 10rem;
     grid-template-columns:repeat(auto-fit, minmax(20rem, 1fr));
     padding-top: 1rem;
     padding-bottom: 1rem;
-
 }
 .icons-container .icons{
-    font-size: 95%;
+    background-color: white;
+    font-size: 1.5rem;
     color:var(--green);
-    padding-left: 40px;
+    padding: 40px;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
 }
 .services .box-container{
     display: grid;
     gap: 10rem;
-    grid-template-columns:repeat(auto-fit, minmax(20rem, 1fr));
+    /* grid-template-columns:repeat(auto-fit, minmax(20rem, 1fr)); */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
 
 }
 .services .box-container .box{
@@ -161,16 +171,28 @@ body{
     box-shadow: var(--box-shadow);
     border: var(--border);
     padding: 4.5rem;
+    font-size: 1.5rem;
+}
+.services .box-container .box i{
+    font-size: 2rem;
+    color: var(--green);
+}
+.services .box-container .box h3{
+    font-size: 2rem;
+    color: var(--green);
 }
 .about .row{
     display:flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-
+}
+.about{
+    height: 100vh;
 }
 .about .row .image{
     flex: 1 1 45rem;
+    padding-left: 5rem;
 
 }
 .about .row .image .img{
@@ -204,6 +226,55 @@ body{
 
     
 }
+
+.book .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.book .row .image{
+    flex: 1 1 45rem;
+}
+
+.book .row .image img{
+    width: 100%;
+}
+
+.book .row form{
+    flex: 1 1 45rem;
+    background: #fff;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.book .row form h3{
+    color: var(--black);
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.book .row form .box{
+    width: 100%;
+    margin: .7rem 0;
+    border-radius: .5rem;
+    border: var(--border);
+    border-color: var(--green);
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 1rem;
+}
+.book .row form .btn{
+    padding: 1rem 4rem;
+
+}
+
 .contact .row{
     display:flex;
     align-items: center;
@@ -213,6 +284,7 @@ body{
 }
 .contact .row .image{
     flex: 1 1 45rem;
+    padding: 5rem;
 
 }
 .contact .row .image .img{
@@ -245,6 +317,10 @@ body{
     padding-left: 10rem;
 
     
+}
+.contact .row .content address span{
+    color: var(--green);
+    font-size: 2rem;
 }
 
 
