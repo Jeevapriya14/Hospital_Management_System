@@ -217,6 +217,9 @@ body{
             width:30%;
         }
     }
+    .home .content{
+        padding: 2rem;
+    }
     .header .navbar {
         display: flex;
         flex-direction: row;
