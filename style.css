@@ -242,6 +242,7 @@ body{
     padding: 1rem 0;
     font-size: 1.5rem;
     line-height: 1.8;
+    padding-left: 10rem;
 
     
 }
@@ -390,6 +391,7 @@ body{
     .contact .row .content address {
         font-size: 3rem;
         line-height: 3.5;
+
     }
 
 
